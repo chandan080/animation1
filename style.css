@@ -1,0 +1,220 @@
+body {
+    background-color: black;
+}
+
+@media screen and (min-width:1024px) {
+
+
+    .container {
+        width: auto;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .box {
+        display: flex;
+        margin: 5px;
+        background-color: cadetblue;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        animation: chandan1 0.8s infinite alternate ease-in-out;
+
+    }
+
+    @keyframes chandan1 {
+        0% {
+            transform: translateY(0);
+        }
+
+
+        100% {
+            transform: translateY(-50px);
+        }
+    }
+
+    h1 {
+        color: rgb(139, 139, 139);
+        margin-inline: auto;
+        text-align: center;
+        margin-block: -150px;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1:hover {
+
+        animation: chandan 1s ease-in-out alternate infinite;
+
+    }
+
+    @keyframes chandan {
+        0% {
+            transform: translateY(0);
+            color: rgb(71, 141, 199);
+        }
+
+        25% {
+            transform: translateY(-10px);
+            color: rgb(224, 62, 62);
+        }
+
+        75% {
+            transform: translateY(-20px);
+            color: rgb(239, 202, 35);
+        }
+
+        100% {
+            transform: translateY(-30px);
+            color: rgb(27, 168, 84);
+        }
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:1024px) {
+    .container {
+        width: auto;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        display: flex;
+        margin: 5px;
+        background-color: cadetblue;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        animation: chandan1 0.8s infinite alternate ease-in-out;
+    }
+
+    @keyframes chandan1 {
+        0% {
+            transform: translateY(0);
+        }
+
+
+        100% {
+            transform: translateY(-50px);
+        }
+    }
+    h1 {
+        color: rgb(139, 139, 139);
+        margin-inline: auto;
+        text-align: center;
+        margin-block: -70px;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1:hover {
+
+        animation: chandan 1s ease-in-out alternate infinite;
+
+    }
+
+    @keyframes chandan {
+        0% {
+            transform: translateY(0);
+            color: rgb(71, 141, 199);
+        }
+
+        25% {
+            transform: translateY(-10px);
+            color: rgb(224, 62, 62);
+        }
+
+        75% {
+            transform: translateY(-20px);
+            color: rgb(239, 202, 35);
+        }
+
+        100% {
+            transform: translateY(-30px);
+            color: rgb(27, 168, 84);
+        }
+    }
+}
+
+
+@media screen and (max-width:786px) {
+    .container {
+        width: auto;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        display: flex;
+        margin: 5px;
+        background-color: cadetblue;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        animation: chandan1 0.8s infinite alternate ease-in-out;
+    }
+
+    @keyframes chandan1 {
+        0% {
+            transform: translateY(0);
+        }
+
+
+        100% {
+            transform: translateY(-50px);
+        }
+    }
+    h1 {
+        color: rgb(139, 139, 139);
+        margin-inline: auto;
+        text-align: center;
+        margin-block: -90px;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1:hover {
+
+        animation: chandan 1s ease-in-out alternate infinite;
+
+    }
+
+    @keyframes chandan {
+        0% {
+            transform: translateY(0);
+            color: rgb(71, 141, 199);
+        }
+
+        25% {
+            transform: translateY(-10px);
+            color: rgb(224, 62, 62);
+        }
+
+        75% {
+            transform: translateY(-20px);
+            color: rgb(239, 202, 35);
+        }
+
+        100% {
+            transform: translateY(-30px);
+            color: rgb(27, 168, 84);
+        }
+    }
+}
+
+
+ 
